@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /home/jfrancisco/.yarn/bin/yarn.js add nodemoon --savedev
+
+PATH: 
+  /home/jfrancisco/.yarn/bin:/home/jfrancisco/.config/yarn/global/node_modules/.bin:/home/jfrancisco/.yarn/bin:/home/jfrancisco/.config/yarn/global/node_modules/.bin:/home/jfrancisco/.yarn/bin:/home/jfrancisco/.config/yarn/global/node_modules/.bin:/home/jfrancisco/.local/bin:/home/jfrancisco/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/nodemoon: Not found
+      at Request.params.callback [as _callback] (/home/jfrancisco/.yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/home/jfrancisco/.yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (/home/jfrancisco/.yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (/home/jfrancisco/.yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
